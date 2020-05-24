@@ -37,8 +37,9 @@ public class MainActivity extends AppCompatActivity {
         rv_Tasks = findViewById(R.id.rv_tasks);
 
         loadTasks();
-        tasks.add("Complete all tasks!");
-        tasks.add("Create tasks!");
+//        tasks.add("Complete all tasks!");
+//        tasks.add("Create tasks!");
+
 
        TasksAdapter.OnLongClickListener onLongClickListener = new TasksAdapter.OnLongClickListener(){
             @Override
